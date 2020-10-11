@@ -1,0 +1,24 @@
+git clone https://github.com/CiscoDevNet/pyats-coding-101.git
+cd pyats-coding-101
+ls
+git init newrepo
+cd newrepo
+touch newfile
+ls
+git status
+git add newfile
+git status
+touch removeme.py
+git add .
+ls
+git rm -f removeme.py
+touch oldfile.py
+ls
+git mv oldfile.py newfile.py
+ls
+git commit -a -m "bug fix 21324 and 23421"
+git remote add origin https://github.com/AndryHartawan/devnetccna.git
+git remote -v
+git remote rm origin
+git remote -v
+git push origin master
