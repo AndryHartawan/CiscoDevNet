@@ -1,5 +1,7 @@
-git clone https://github.com/CiscoDevNet/pyats-coding-101.git
-cd pyats-coding-101
+#git clone https://github.com/CiscoDevNet/pyats-coding-101.git
+git clone https://github.com/AndryHartawan/CiscoDevNet
+#cd pyats-coding-101
+cd CiscoDevNet
 ls
 git init newrepo
 cd newrepo
@@ -17,7 +19,7 @@ ls
 git mv oldfile.py newfile.py
 ls
 git commit -a -m "bug fix 21324 and 23421"
-git remote add origin https://github.com/AndryHartawan/devnetccna.git
+git remote add origin https://github.com/AndryHartawan/CiscoDevNet.git
 git remote -v
 git remote rm origin
 git remote -v
