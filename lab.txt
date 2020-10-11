@@ -23,4 +23,6 @@ git remote add origin https://github.com/AndryHartawan/CiscoDevNet.git
 git remote -v
 git remote rm origin
 git remote -v
+git remote add origin https://github.com/AndryHartawan/CiscoDevNet.git
 git push origin master
+git pull origin master
