@@ -1,1 +1,106 @@
+max(50, 5, 8, 10, 1)
+
+def sub(arg1, arg2):
+ result = arg1 - arg2
+ return result
+
+sub(10, 15)
+
+sub(arg2=15, arg1=10)
+
+def hello(*args):
+                for arg in args:
+                       print("Hello", arg, "!")
+
+hello('Caleb', 'Sydney', 'Savannah')
+
+def greeting(name, message="Good morning!"):
+                print("Hello", name + ', ' + message)
+
+greeting('Caleb')
+greeting('Sydney', "How are you?")
+
+class Router:
+                pass
+
+class Router:
+       '''Router Class'''
+       def __init__(self, model, swversion, ip_add):
+              '''initialize values'''
+              self.model = model
+              self.swversion = swversion
+              self.ip_add = ip_add
+
+rtr1 = Router('iosV', '15.6.7', '10.10.10.1')
+rtr1.model
+rtr1.desc = 'virtual router'
+rtr1.desc
+rtr2= Router('isr4221', '16.9.5', '10.10.10.5')
+rtr2.model
+
+class Router:
+ '''Router Class'''
+ def __init__(self, model, swversion, ip_add):
+      '''initialize values'''
+      self.model = model
+      self.swversion = swversion
+      self.ip_add = ip_add
+ def getdesc(self):
+      '''return a formatted description of the router'''
+      desc = f'Router Model :{self.model}\n'\
+             f'Software Version :{self.swversion}\n'\
+             f'Router Management Address:{self.ip_add}'
+      return desc
+
+rtr1 = Router('iosV', '15.6.7', '10.10.10.1')
+rtr2 = Router('isr4221', '16.9.5', '10.10.10.5')
+
+print('Rtr1\n', rtr1.getdesc(), '\n', sep='')
+print('Rtr2\n', rtr2.getdesc(), sep='')
+
+class Router:
+ '''Router Class'''
+ def __init__(self, model, swversion, ip_add):
+      '''initialize values'''
+      self.model = model
+      self.swversion = swversion
+      self.ip_add = ip_add
+ def getdesc(self):
+      '''return a formatted description of the router'''
+      desc = (f'Router Model :{self.model}\n'
+              f'Software Version :{self.swversion}\n'
+              f'Router Management Address:{self.ip_add}')
+      return desc
+
+class Switch(Router):
+ def getdesc(self):
+      '''return a formatted description of the switch'''
+      desc = (f'Switch Model :{self.model}\n'
+              f'Software Version :{self.swversion}\n'
+              f'Switch Management Address:{self.ip_add}')
+      return desc
+
+rtr1 = Router('iosV', '15.6.7', '10.10.10.1')
+rtr2 = Router('isr4221', '16.9.5', '10.10.10.5')
+sw1 = Switch('Cat9300', '16.9.5', '10.10.10.8')
+print('Rtr1\n', rtr1.getdesc(), '\n', sep='')
+print('Rtr2\n', rtr2.getdesc(), '\n', sep='')
+print('Sw1\n', sw1.getdesc(), '\n', sep='')
+
+import math
+dir(math)
+
+help(math)
+
+help(math.sqrt)
+
+math.sqrt(15)
+
+import calendar as cal
+print(cal.month(2020, 2, 2, 1))
+from math import sqrt,tan
+sqrt(15)
+
+import sys
+sys.path
 
