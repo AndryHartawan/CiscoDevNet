@@ -1,0 +1,70 @@
+person$ python3
+5 * 6 - 1
+5 * (6 - 1)
+10 / 7
+10 // 7
+10 % 7
+0xbadbeef
+hex(195935983)
+bin(195935983)
+'10' + 1 
+int('10') + 1
+a='DevNet'
+a[0]
+a[0:3]
+a[0:6]
+a[:2]
+a[2:]
+a[-2:]
+a[:-2]
+'DevNet' + 'Rocks'
+'DevNet Rocks ' * 5
+kids = ['Caleb', 'Sydney', 'Savannah']
+kids
+emptylist = []
+emptylist2 = list()
+print(kids[1])
+kids
+kids[1]="Sydney"
+kids
+a = [1, 2, 4]
+b = [4, 5, 6]
+c = a + b
+print(c)
+c= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+c[1:4]
+c[ :-4]
+c[:]
+person = (2012, 'Mike', 'CCNA')
+person
+type(person)
+person[0]
+person[0]=15
+(a, b, c) = (12, 'Fred',18)
+c
+cabinet = { "scores":(98,76,95), "name":"Chris", "company":"Cisco"}
+type(cabinet)
+cabinet["scores"]
+cabinet["company"]
+cabinet["address"] = {"street":"123 Anywhere Dr", "city":"Franklin", "state":"TN"}
+cabinet["address"]
+numbs = {1, 2, 4, 5, 6, 8, 10}
+odds = {1, 3, 5, 7, 9}
+type(odds)
+numbs | odds
+numbs & odds
+inpt = input('Type your name: ')
+inpt
+inpt = float(input('What is the Temperature in F: '))
+inpt
+print('Hello World')
+print('Hello\nWorld')
+print('Numbers in set', 1, ':', numbs )
+print('Numbers in set ', 1, ': ', numbs, sep='' )
+name = 'Andry'
+name2 = 'Hartawan'
+print(f'{name2} says Hi to {name}!')
+n = 20
+if n == 20:
+         print('The number is 20')
+
