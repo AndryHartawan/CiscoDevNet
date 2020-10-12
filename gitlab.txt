@@ -29,10 +29,15 @@ git pull origin master
 git log
 git branch newfeature
 git branch
+echo -e "line1\nline2\n" > text1
+git add .
+git commit -a -m "conflict test"
 git checkout newfeature
-touch text1
+echo -e "line1\nline2\nNew feature code" > text1
 git add .
 git status
 git commit -a -m "new feature"
 git checkout master
 git merge newfeature
+git add .
+git commit -m "merge conflict fixed"
