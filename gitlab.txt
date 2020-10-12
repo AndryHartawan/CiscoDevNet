@@ -26,3 +26,13 @@ git remote -v
 git remote add origin https://github.com/AndryHartawan/CiscoDevNet.git
 git push origin master
 git pull origin master
+git log
+git branch newfeature
+git branch
+git checkout newfeature
+touch text1
+git add .
+git status
+git commit -a -m "new feature"
+git checkout master
+git merge newfeature
